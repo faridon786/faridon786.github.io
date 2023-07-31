@@ -1,0 +1,126 @@
+@font-face {
+  font-family: chivo;
+  src: url(../Chivo[wght].ttf);
+}
+
+@font-face {
+  font-family: script;
+  src: url("../font/Brush\ Script.ttf");
+}
+
+#galleryText {
+  font-family: chivo;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#navbarBrand {
+  font-family: script;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#banner {
+  background: url("../../images/kuala-lumpur-1820944.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#welcome {
+  color: white;
+  text-align: center;
+  font-family: script;
+  font-size: 100px;
+  padding: 30px;
+}
+
+#preText {
+  max-width: 1184px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 767px) {
+  #welcome {
+    font-size: 100px;
+  }
+  #colMin {
+    color: white;
+    padding: 5px;
+    text-align: center;
+  }
+}
+#bannerProjectSubmission {
+  background: url("../../images/london-3833039.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#contactMenu {
+  padding-top: 20px;
+}
+
+#navItem {
+  text-align: center;
+}
+
+#bannerContact {
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  background: url("../../images/skyscrapers-3184798.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#about {
+  text-align: center;
+  padding: 10px;
+}
+
+#aboutChart {
+  background-color: lightgray;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+}
+
+#aboutChart div {
+  padding: 20px;
+}
+
+#gallery {
+  text-align: center;
+  padding: 30px;
+}
+
+#galleryPhoto1 {
+  background: url("../../images/london-3833039.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#galleryPhoto2 {
+  background: url("../../images/kuala-lumpur-1820944.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 422px) {
+  #navbarBrand {
+    font-size: 30px;
+  }
+}
